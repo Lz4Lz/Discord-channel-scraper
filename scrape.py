@@ -9,7 +9,7 @@ headers = {
 'Authorization': f'{token}'
 }
 
-r = requests.get(f"https://discord.com/api/v9/channels/{channel}/messages", headers=headers)
+r = requests.get(f"https://discord.com/api/v9/channels/{channel}/messages?limit=100", headers=headers)
 
 data = r.json()
 
