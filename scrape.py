@@ -52,6 +52,3 @@ def options(option):
 		exit()
 
 options(option)
-
-if __name__ == "__main__":
-	exit()
